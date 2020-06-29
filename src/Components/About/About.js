@@ -1,9 +1,9 @@
 import React from 'react';
-
+import './About.scss'
 const About = () => {
     return (
-        <div>
-'About'
+        <div className="main-area-container">
+<h1>ABout</h1>
         </div>
     )
 }
