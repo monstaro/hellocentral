@@ -1,0 +1,6 @@
+@mixin main-area-container() {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 65%;
+}

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Pics = () => {
     return (
-        <div>
+        <div className="main-area-container">
         <h1>pix</h1>
         </div>
     )

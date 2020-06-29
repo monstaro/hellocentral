@@ -1,0 +1,5 @@
+@import "mixins";
+
+@mixin main-area-container() {
+    display: flex;
+}

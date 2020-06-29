@@ -1,0 +1,5 @@
+@import '../../sass/mixins';
+
+.main-area-container {
+    @include main-area-container()
+}
