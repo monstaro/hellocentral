@@ -17,7 +17,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="app">
     <HeaderContainer />
     <Route path="/" exact component={Home} />
     <Route path="/about" exact component={About} />
