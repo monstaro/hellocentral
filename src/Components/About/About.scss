@@ -1,5 +1,44 @@
 @import '../../sass/mixins';
-
+@import '../../sass/vars';
 .main-area-container {
-    @include main-area-container()
+    @include main-area-container();
+}
+
+.area-text {
+    color: $main-color;
+    font-family: 'HelveticaNeue';
+    margin: 10px 0;
+}
+
+// .image-area {
+//     display: flex;
+// }
+
+
+
+.members {
+//  display: flex;
+//  flex-direction: column;
+ margin-left: 30px;
+}
+
+.epk {
+    border: 2px solid white;
+    color: white;
+    height: 45px;
+    width: 170px;
+    margin: auto;
+}
+
+.epk:hover {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    height: 45px;
+    width: 170px;
+}
+
+.about-img {
+    width: 40%;
 }
