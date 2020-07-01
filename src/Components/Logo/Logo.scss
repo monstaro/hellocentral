@@ -1,14 +1,13 @@
-@font-face {
-    font-family: 'Linebeam';
-    src: local('Linebeam'), url(../../fonts/Linebeam.ttf) format('truetype');
-  }
+@import "../../sass/vars";
 
-.logo {
-  // margin: auto;
+@font-face {
+  font-family: "Linebeam";
+  src: local("Linebeam"), url(../../fonts/Linebeam.ttf) format("truetype");
 }
 
-
 .name {
-      font-family: 'Linebeam';
-      font-size: 3em;
-  }
+  color: $main-color;
+  font-family: "Linebeam";
+  font-size: 5em;
+  margin: 5vh 0 0 0;
+}

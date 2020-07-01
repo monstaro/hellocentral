@@ -1,8 +1,23 @@
+@import '../../sass/vars';
+
 .nav-links {
 margin: auto 0;
 }
 
 li {
+    color: $main-color;
     display: inline;
     margin: 20px;
+    font-family: 'HelveticaNeue-Bold';
+    font-size: 1.4em;
+}
+
+a {
+    text-decoration: none;
+    color: $main-color;
+}
+
+.active {
+    color: orange;
+    border-bottom: 3px solid $main-color;
 }

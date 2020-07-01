@@ -1,5 +1,13 @@
 @import '../../sass/mixins';
-
+@import '../../sass/vars';
 .main-area-container {
     @include main-area-container()
+}
+
+.area-header {
+    color: $main-color;
+}
+
+.area-text {
+    color: $main-color;
 }

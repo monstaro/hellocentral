@@ -1,0 +1,26 @@
+@import '../../sass/mixins';
+@import '../../sass/vars';
+.main-area-container {
+    // @include main-area-container();
+    // width: 50%;
+    // display: inline;
+}
+
+.area-header {
+    color: $main-color;
+    // display: inline-flex;
+    text-align: right;
+    position: relative;
+
+}
+
+.area-text {
+    color: $main-color;
+    // text-align: right;
+
+}
+
+.left {
+    // left: 0;
+    position: absolute;
+}
