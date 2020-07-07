@@ -10,4 +10,64 @@
 
 .area-text {
     color: $main-color;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+
+.text-input {
+    border: 1px solid rgb(244, 190, 103);
+    border-radius: 2px;
+    background-color: rgb(247, 239, 239);
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.tall {
+    padding-bottom: 120px;
+    text-align: auto;
+}
+
+.submitBtn {
+    cursor: pointer;
+    border: 1px solid rgb(244, 190, 103);
+    border-radius: 20px;
+    color: white; 
+    padding: 5px;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'HelveticaNeue-Bold';
+    -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.submitBtn:hover {
+    background:  rgb(244, 190, 103);
+    color: black;
+}
+
+.submitBtn:active {
+    transform: scale(1.1);
+}
+
+.submitBtn:focus {
+   outline: 1px solid grey;
+}
+
+.alert-text {
+    color: red;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.hide {
+    display: hidden;
 }
