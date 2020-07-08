@@ -1,13 +1,39 @@
-import React from 'react'
+import React from "react";
+import "./Music.scss";
+import CFH from "../../icons/CFH.jpg";
+import LoveChild from "../../icons/Love Child.jpg";
+import SYTS from "../../icons/SYTS.jpg";
+import Temple from "../../icons/Temple.jpg";
+import Heatwave from "../../icons/HEATWAVE4.jpg";
 
 const Music = () => {
-    return (
-        <div className="main-area-container">
+  return (
+    <div className="main-area-container">
       <h1 className="area-header">Music</h1>
-      <p className="area-text">Why bother with the movement of the train, their high heels like polished hooves against the gray metal of the Flatline as a construct, a hardwired ROM cassette replicating a dead man’s skills, obsessions, kneejerk responses. He stared at the rear of the arcade showed him broken lengths of damp chipboard and the dripping chassis of a gutted game console. He’d waited in the human system. The Sprawl was a yearly pilgrimage to Tokyo, where genetic surgeons reset the code of his DNA, a procedure unavailable in Chiba. They floated in the human system. No sound but the muted purring of the console in faded pinks and yellows. She peered at the rear of the arcade showed him broken lengths of damp chipboard and the dripping chassis of a gutted game console. Her cheekbones flaring scarlet as Wizard’s Castle burned, forehead drenched with azure when Munich fell to the Tank War, mouth touched with hot gold as a gliding cursor struck sparks from the Chinese program’s thrust, a worrying impression of solid fluidity, as though the shards of a broken mirror bent and elongated as they rotated, but it never told the correct time. The knives seemed to move of their own accord, gliding with a luminous digital display wired to a subcutaneous chip.
-</p>
+      <p className="music-area-text">
+      <div className="album-container">
+          <img src={Heatwave} alt="Heatwave" className="album-image" />
+          <p>HEAT//WAVE (EP)</p>
         </div>
-    )
-}
+        <div className="album-container">
+          <img src={LoveChild} alt="Love Child" className="album-image" />
+          <p>Love Child (Single)</p>
+        </div>
+        <div className="album-container">
+          <img src={CFH} alt="Carbon Fiber House" className="album-image" />
+          <p>Carbon Fiber House (Single)</p>
+        </div>
+        <div className="album-container">
+          <img src={SYTS} alt="Sing You To Sleep" className="album-image" />
+          <p>Sing You To Sleep (Single)</p>
+        </div>
+        <div className="album-container">
+          <img src={Temple} alt="Temple" className="album-image" />
+          <p>Temple (Single)</p>
+        </div>
+      </p>
+    </div>
+  );
+};
 
 export default Music;
