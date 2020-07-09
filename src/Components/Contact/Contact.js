@@ -37,9 +37,9 @@ const Contact = () => {
     window.emailjs.send(
         'gmail', templateId, vars
     ).then(res => {
-        console.log('Sent it')
+        setError('Sent it')
     })
-    .catch(err => console.error(err))
+    .catch(err => setError('something went wrong. try emailing hellocengtralofficial@gmail.com'))
   }
   return (
     <div className="main-area-container">
@@ -74,7 +74,7 @@ const Contact = () => {
             type="submit"
             onClick={(e) => errorHandler(e)}
             className="submitBtn"
-            value="submit"
+            value="send it"
           ></input>
         </form>
       </p>
