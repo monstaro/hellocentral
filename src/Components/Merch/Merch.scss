@@ -1,14 +1,25 @@
 @import '../../sass/mixins';
 @import '../../sass/vars';
+
 .main-area-container {
     @include main-area-container();
     z-index: 0;
 }
 
-.area-header {
+.merch-area-text {
     color: $main-color;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80vh;
 }
 
-.area-text {
-    color: $main-color;
+.merch-container {
+    // display: inline;
+    margin: 20px;
 }
+
+.merch-image {
+    height: 200px;
+    border-radius: 80px;
+}
+
