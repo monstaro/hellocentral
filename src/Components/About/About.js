@@ -7,13 +7,13 @@ const About = () => {
     <div className="main-area-container">
       <div className="image-area">
       <img className="about-img" src={hc} alt="the boys at the beach" />
-      Alt Rock from Denver, CO
-      <div className="members">
-        <p className="area-text">Rob Knox - Drums</p>
-        <p className="area-text">Justin Jokinen - Guitar</p>
-        <p className="area-text">Cody Smith - Guitar, Vox</p>
-        <p className="area-text">Frank McGinn - Bass</p>
+      <p className="about-text">t h e d e s e r t a n  d   o    u     t      e       r        <span className="bounce animated">s</span>         p          a           c             e </p>
       </div>
+      <div className="members">
+        <p className="about-area-text">Rob Knox - Drums</p>
+        <p className="about-area-text">Justin Jokinen - Guitar</p>
+        <p className="about-area-text">Cody Smith - Guitar, Vox</p>
+        <p className="about-area-text">Frank McGinn - Bass</p>
       </div>
       <button className="epk">View Full EPK (.pdf)</button>
     </div>
