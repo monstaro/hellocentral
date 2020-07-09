@@ -1,25 +1,45 @@
 @import '../../sass/mixins';
 @import '../../sass/vars';
 .main-area-container {
-    @include main-area-container();
+    // @include main-area-container();
 }
 
-.area-text {
+.about-area-text {
     color: $main-color;
-    font-family: 'HelveticaNeue';
+    font-family: 'HelveticaNeue-Bold';
     margin: 10px 0;
 }
 
-// .image-area {
-//     display: flex;
-// }
 
+.image-area {
+    display: flex;
+}
 
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+    0% {transform: translateY(500px);}
+    20% {transform: translateY(-20px);}
+    100% {transform: translateY(0px);}
 
-.members {
-//  display: flex;
-//  flex-direction: column;
- margin-left: 30px;
+  }
+
+  .bounce {
+      display: inline;
+    animation-name: bounce;
+  }
+
+  .animated {
+    animation-duration: 20.5s;
+    animation-fill-mode: both;
+    animation-iteration-count: 1;
+  }
+
+.about-text {
+ color: white;
+ margin: auto 0 auto 13%;
+ display: flex;
+ font-family: HelveticaNeue;
+ white-space:pre;
 }
 
 .epk {
