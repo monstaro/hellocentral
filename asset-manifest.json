@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/hellocentral/static/css/main.39cb3f9f.chunk.css",
+    "main.js": "/hellocentral/static/js/main.1728eeab.chunk.js",
+    "main.js.map": "/hellocentral/static/js/main.1728eeab.chunk.js.map",
+    "runtime-main.js": "/hellocentral/static/js/runtime-main.174166cc.js",
+    "runtime-main.js.map": "/hellocentral/static/js/runtime-main.174166cc.js.map",
+    "static/js/2.3b3d2612.chunk.js": "/hellocentral/static/js/2.3b3d2612.chunk.js",
+    "static/js/2.3b3d2612.chunk.js.map": "/hellocentral/static/js/2.3b3d2612.chunk.js.map",
+    "index.html": "/hellocentral/index.html",
+    "precache-manifest.43ade54d9a10be4d4afe77e26076a29b.js": "/hellocentral/precache-manifest.43ade54d9a10be4d4afe77e26076a29b.js",
+    "service-worker.js": "/hellocentral/service-worker.js",
+    "static/css/main.39cb3f9f.chunk.css.map": "/hellocentral/static/css/main.39cb3f9f.chunk.css.map",
+    "static/js/2.3b3d2612.chunk.js.LICENSE.txt": "/hellocentral/static/js/2.3b3d2612.chunk.js.LICENSE.txt",
+    "static/media/CFH.jpg": "/hellocentral/static/media/CFH.32325966.jpg",
+    "static/media/HEATWAVE4.jpg": "/hellocentral/static/media/HEATWAVE4.7ef4b779.jpg",
+    "static/media/Logo.scss": "/hellocentral/static/media/Linebeam.9319cf62.ttf",
+    "static/media/Love Child.jpg": "/hellocentral/static/media/Love Child.80929af0.jpg",
+    "static/media/SYTS.jpg": "/hellocentral/static/media/SYTS.d9ed3819.jpg",
+    "static/media/Temple.jpg": "/hellocentral/static/media/Temple.ceda4012.jpg",
+    "static/media/bandcamp.svg": "/hellocentral/static/media/bandcamp.e1e56c32.svg",
+    "static/media/hc1.jpg": "/hellocentral/static/media/hc1.aa578235.jpg",
+    "static/media/instagram-sketched.svg": "/hellocentral/static/media/instagram-sketched.82526960.svg",
+    "static/media/itunes.svg": "/hellocentral/static/media/itunes.4f29642c.svg",
+    "static/media/soundcloud.svg": "/hellocentral/static/media/soundcloud.ebe08b8e.svg",
+    "static/media/spotify-sketch.svg": "/hellocentral/static/media/spotify-sketch.74d9e294.svg",
+    "static/media/tee3back.jpg": "/hellocentral/static/media/tee3back.a783e9f4.jpg",
+    "static/media/tee3front.jpg": "/hellocentral/static/media/tee3front.659982ab.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.174166cc.js",
+    "static/js/2.3b3d2612.chunk.js",
+    "static/css/main.39cb3f9f.chunk.css",
+    "static/js/main.1728eeab.chunk.js"
+  ]
+}
