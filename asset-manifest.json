@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hellocentral/static/css/main.39cb3f9f.chunk.css",
-    "main.js": "/hellocentral/static/js/main.1728eeab.chunk.js",
-    "main.js.map": "/hellocentral/static/js/main.1728eeab.chunk.js.map",
+    "main.js": "/hellocentral/static/js/main.4bc9f13e.chunk.js",
+    "main.js.map": "/hellocentral/static/js/main.4bc9f13e.chunk.js.map",
     "runtime-main.js": "/hellocentral/static/js/runtime-main.174166cc.js",
     "runtime-main.js.map": "/hellocentral/static/js/runtime-main.174166cc.js.map",
     "static/js/2.3b3d2612.chunk.js": "/hellocentral/static/js/2.3b3d2612.chunk.js",
     "static/js/2.3b3d2612.chunk.js.map": "/hellocentral/static/js/2.3b3d2612.chunk.js.map",
     "index.html": "/hellocentral/index.html",
-    "precache-manifest.43ade54d9a10be4d4afe77e26076a29b.js": "/hellocentral/precache-manifest.43ade54d9a10be4d4afe77e26076a29b.js",
+    "precache-manifest.6fe66453d235244f8071e25c966dae24.js": "/hellocentral/precache-manifest.6fe66453d235244f8071e25c966dae24.js",
     "service-worker.js": "/hellocentral/service-worker.js",
     "static/css/main.39cb3f9f.chunk.css.map": "/hellocentral/static/css/main.39cb3f9f.chunk.css.map",
     "static/js/2.3b3d2612.chunk.js.LICENSE.txt": "/hellocentral/static/js/2.3b3d2612.chunk.js.LICENSE.txt",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.174166cc.js",
     "static/js/2.3b3d2612.chunk.js",
     "static/css/main.39cb3f9f.chunk.css",
-    "static/js/main.1728eeab.chunk.js"
+    "static/js/main.4bc9f13e.chunk.js"
   ]
 }
