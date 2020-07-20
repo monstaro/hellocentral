@@ -1,28 +1,24 @@
 import React from "react";
+import band1 from "../../icons/band1.jpg";
+import band2 from "../../icons/band2.jpg";
+import band3 from "../../icons/band3.jpg";
+import "./Pics.scss";
+import Carousel from "react-bootstrap/Carousel";
 
 const Pics = () => {
   return (
     <div className="main-area-container">
-      <h1 className="area-header">Pixx</h1>
-      <p className="area-text">
-        <a
-          data-flickr-embed="true"
-          href="https://www.flickr.com/photos/189208467@N07/albums/72157715000772437"
-          title="hellocentral"
-        >
-          <img
-            src="https://live.staticflickr.com/65535/50085703107_d30a1081b8.jpg"
-            width="500"
-            height="500"
-            alt="hellocentral"
-          />
-        </a>
-        <script
-          async
-          src="//embedr.flickr.com/assets/client-code.js"
-          charset="utf-8"
-        ></script>
-      </p>
+      <Carousel>
+        <Carousel.Item>
+          <img className="d-block band-pic" src={band1} alt="First slide" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block band-pic" src={band2} alt="Third slide" />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block band-pic" src={band3} alt="Third slide" />
+        </Carousel.Item>
+      </Carousel>
     </div>
   );
 };

@@ -1,11 +1,19 @@
 @import '../../sass/mixins';
 @import '../../sass/vars';
 .main-area-container {
-    @include main-area-container()
+    @include main-area-container();
 }
 
 .area-header {
     color: $main-color;
+}
+
+.band-pic {
+    // width: 500px;
+    max-height: 400px;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 100px;
 }
 
 .area-text {
