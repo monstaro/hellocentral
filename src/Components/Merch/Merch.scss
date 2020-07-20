@@ -2,8 +2,8 @@
 @import '../../sass/vars';
 
 .main-area-container {
-    @include main-area-container();
-    z-index: 0;
+    // @include main-area-container();
+    display: flex;
 }
 
 .merch-area-text {
@@ -14,12 +14,11 @@
 }
 
 .merch-container {
-    // display: inline;
     margin: 20px;
+    text-align: center;
 }
 
 .merch-image {
     height: 200px;
-    border-radius: 80px;
 }
 
