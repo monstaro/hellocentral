@@ -9,5 +9,10 @@
   color: $main-color;
   font-family: "Linebeam";
   font-size: 5em;
-  margin: 5vh 0 0 0;
+  margin: 3vh 0 0 0;
+}
+
+.name-hover:hover {
+  color: rgb(244, 190, 103);
+  cursor: default;
 }
