@@ -4,7 +4,6 @@ import CFH from "../../icons/CFH.jpg";
 import LoveChild from "../../icons/Love Child.jpg";
 import SYTS from "../../icons/SYTS.jpg";
 import Temple from "../../icons/Temple.jpg";
-import Heatwave from "../../icons/HEATWAVE4.jpg";
 
 const Music = () => {
   return (
@@ -12,7 +11,7 @@ const Music = () => {
       <h1 className="area-header">Music</h1>
       <p className="music-area-text">
       <div className="album-container">
-          <img src={Heatwave} alt="Heatwave" className="album-image" />
+          <img src={''} alt="Heatwave" className="album-image" />
           <p>HEAT//WAVE (EP)</p>
         </div>
         <div className="album-container">
