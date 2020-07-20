@@ -6,8 +6,10 @@ const About = () => {
   return (
     <div className="main-area-container">
       <div className="image-area">
-      <img className="about-img" src={hc} alt="the boys at the beach" />
-      <p className="about-text">t h e d e s e r t a n  d   o    u     t      e       r        <span className="bounce animated">s</span>         p          a           c             e </p>
+        <img className="about-img" src={hc} alt="the boys at the beach" />
+        <p className="about-area-text">
+          hellocentral is an alternative rock band from Denver, CO.
+          </p>
       </div>
       <div className="members">
         <p className="about-area-text">Rob Knox - Drums</p>
