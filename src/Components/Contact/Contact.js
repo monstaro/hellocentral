@@ -46,7 +46,9 @@ const Contact = () => {
       <h1 className="area-header">Contact</h1>
       <p className="area-text">
         <form className="contact-form">
+          <div className="form-container">
           <div className="input-section">
+    <p className="alert-text hide">{errorMsg}</p>
             <input
               type="text"
               placeholder="Enter Your Name"
@@ -70,6 +72,7 @@ const Contact = () => {
               className="text-input tall"
             ></input>
           </div>
+          </div>
           <input
             type="submit"
             onClick={(e) => errorHandler(e)}
@@ -78,7 +81,6 @@ const Contact = () => {
           ></input>
         </form>
       </p>
-      <p className="alert-text hide">{errorMsg}</p>
     </div>
   );
 };
