@@ -36,7 +36,7 @@ const Nav = () => {
         <li>
           <Link
             to="/about"
-            className={getClassName("about")}
+            className={getClassName("about") + ' headlink'} 
             onClick={() => setActiveClass("about")}
           >
             about
@@ -45,7 +45,7 @@ const Nav = () => {
         <li>
           <Link
             to="/merch"
-            className={getClassName("merch")}
+            className={getClassName("merch") + ' headlink'}
             onClick={() => setActiveClass("merch")}
           >
             merch
@@ -54,7 +54,7 @@ const Nav = () => {
         <li>
           <Link
             to="/music"
-            className={getClassName("music")}
+            className={getClassName("music") + ' headlink'}
             onClick={() => setActiveClass("music")}
           >
             music
@@ -63,7 +63,7 @@ const Nav = () => {
         <li>
           <Link
             to="/pics"
-            className={getClassName("pics")}
+            className={getClassName("pics") + ' headlink'}
             onClick={() => setActiveClass("pics")}
           >
             pics
@@ -72,7 +72,7 @@ const Nav = () => {
         <li>
           <Link
             to="/contact"
-            className={getClassName("contact")}
+            className={getClassName("contact") + ' headlink'}
             onClick={() => setActiveClass("contact")}
           >
             contact

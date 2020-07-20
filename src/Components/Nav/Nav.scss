@@ -1,7 +1,7 @@
 @import '../../sass/vars';
 
 .nav-links {
-margin: auto 0;
+margin: 8vh 0 0 0;
 }
 
 li {
@@ -12,9 +12,14 @@ li {
     font-size: 1.4em;
 }
 
-a {
+.headlink {
     text-decoration: none;
     color: $main-color;
+}
+
+.headlink:hover {
+    text-decoration: none;
+    color: rgb(244, 190, 103);
 }
 
 .active {
