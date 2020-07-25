@@ -8,9 +8,9 @@ import Carousel from "react-bootstrap/Carousel";
 const Pics = () => {
   return (
     <div className="main-area-container">
-      <Carousel>
+      <Carousel nextLabel="" prevLabel="">
         <Carousel.Item>
-          <img className="d-block band-pic" src={band1} alt="First slide" />
+          <img className="band-pic hello" src={band1} alt="First slide" />
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block band-pic" src={band2} alt="Third slide" />
