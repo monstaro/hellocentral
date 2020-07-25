@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/hellocentral/static/css/main.760b12ca.chunk.css",
-    "main.js": "/hellocentral/static/js/main.b0e91bf1.chunk.js",
-    "main.js.map": "/hellocentral/static/js/main.b0e91bf1.chunk.js.map",
+    "main.css": "/hellocentral/static/css/main.dd87f264.chunk.css",
+    "main.js": "/hellocentral/static/js/main.6b686288.chunk.js",
+    "main.js.map": "/hellocentral/static/js/main.6b686288.chunk.js.map",
     "runtime-main.js": "/hellocentral/static/js/runtime-main.174166cc.js",
     "runtime-main.js.map": "/hellocentral/static/js/runtime-main.174166cc.js.map",
     "static/js/2.1f69a319.chunk.js": "/hellocentral/static/js/2.1f69a319.chunk.js",
     "static/js/2.1f69a319.chunk.js.map": "/hellocentral/static/js/2.1f69a319.chunk.js.map",
     "index.html": "/hellocentral/index.html",
-    "precache-manifest.f7953fe35ac6834171a89bb9607bb237.js": "/hellocentral/precache-manifest.f7953fe35ac6834171a89bb9607bb237.js",
+    "precache-manifest.3d6231ebaf842aba7822845482a913c8.js": "/hellocentral/precache-manifest.3d6231ebaf842aba7822845482a913c8.js",
     "service-worker.js": "/hellocentral/service-worker.js",
-    "static/css/main.760b12ca.chunk.css.map": "/hellocentral/static/css/main.760b12ca.chunk.css.map",
+    "static/css/main.dd87f264.chunk.css.map": "/hellocentral/static/css/main.dd87f264.chunk.css.map",
     "static/js/2.1f69a319.chunk.js.LICENSE.txt": "/hellocentral/static/js/2.1f69a319.chunk.js.LICENSE.txt",
     "static/media/1.png": "/hellocentral/static/media/1.0b94b0eb.png",
     "static/media/1back.png": "/hellocentral/static/media/1back.465317a4.png",
@@ -39,7 +39,7 @@
   "entrypoints": [
     "static/js/runtime-main.174166cc.js",
     "static/js/2.1f69a319.chunk.js",
-    "static/css/main.760b12ca.chunk.css",
-    "static/js/main.b0e91bf1.chunk.js"
+    "static/css/main.dd87f264.chunk.css",
+    "static/js/main.6b686288.chunk.js"
   ]
 }
