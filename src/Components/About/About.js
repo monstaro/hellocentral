@@ -17,7 +17,7 @@ const About = () => {
         <p className="about-area-text">Cody Smith - Guitar, Vox</p>
         <p className="about-area-text">Frank McGinn - Bass</p>
       </div>
-      <button className="epk">View Full EPK (.pdf)</button>
+      {/* <button className="epk">View Full EPK (.pdf)</button> */}
     </div>
   );
 };
