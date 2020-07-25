@@ -16,3 +16,11 @@
   color: rgb(244, 190, 103);
   cursor: default;
 }
+
+@media only screen and (max-width: 600px) {
+  .name {
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+  }
+}

@@ -1,28 +1,35 @@
-@import '../../sass/mixins';
-@import '../../sass/vars';
+@import "../../sass/mixins";
+@import "../../sass/vars";
 .main-area-container {
-    // @include main-area-container();
-    display: flex;
+  // @include main-area-container();
+  display: flex;
 }
 
 .area-header {
-    color: $main-color;
-    font-family: 'HelveticaNeue-Bold';
-    font-size: 2em;
+  color: $main-color;
+  font-family: "HelveticaNeue-Bold";
+  font-size: 2em;
 }
 
 .music-area-text {
-    color: $main-color;
-    display: flex;
-    flex-wrap: wrap;
-    height: 80vh;
+  color: $main-color;
+  display: flex;
+  flex-wrap: wrap;
+  height: 80vh;
 }
 
 .album-container {
-    // display: inline;
-    margin: 20px;
+  margin: 20px;
 }
 
 .album-image {
-    height: 200px;
+  height: 200px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .music-area-text {
+        justify-content: center;
+        height: 100vh;
+    }
+  }

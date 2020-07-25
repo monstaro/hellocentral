@@ -72,3 +72,23 @@
 .hide {
     display: hidden;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .main-area-container {
+        width: 100%;
+    }
+    .area-header {
+    display: none;
+    }
+    .tall {
+        padding-bottom: 50px;
+    }
+    .contact-form {
+    margin: auto;
+    text-align: center;
+    }
+    .form-container {
+    margin: auto;
+    }
+  }

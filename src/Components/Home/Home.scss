@@ -2,23 +2,32 @@
 @import '../../sass/vars';
 
 
-.area-header {
+.home-area-header {
     color: $main-color;
     // display: inline-flex;
     text-align: right;
+    font-family: 'HelveticaNeue-Bold';
     cursor: default;
-    position: relative;
-
+    margin: 10px 0;
+    // position: relative;
+    // margin: auto;
+    cursor: progress;
 }
 
 .area-header {
-    color: $main-color;
-    // text-align: right;
-    cursor: progress;
-
+    text-align: right;
 }
 
 .left {
     // left: 0;
     position: absolute;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .home-area-header {
+    margin: 20px auto;
+    text-align: center;
+    color: rgb(255, 153, 0);
+    }
+  }

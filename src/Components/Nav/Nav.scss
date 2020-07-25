@@ -26,3 +26,15 @@ li {
     color: rgb(244, 190, 103);
     border-bottom: 3px solid $main-color;
 }
+
+@media only screen and (max-width: 600px) {
+    .nav-links {
+    margin: auto;
+    text-align: center;
+    }
+    li {
+    font-size: 1.2em;
+    display: inline-flex;
+    margin: 1px 39px 0 0;
+    }
+  }

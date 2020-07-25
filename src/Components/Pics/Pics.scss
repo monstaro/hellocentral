@@ -9,13 +9,21 @@
 }
 
 .band-pic {
-    // width: 500px;
+    display: flex;
     max-height: 400px;
     justify-content: center;
-    margin: auto;
-    margin-bottom: 100px;
+    margin: auto auto 130px auto;
 }
 
 .area-text {
     color: $main-color;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .band-pic {
+        max-width: 250px;
+        min-height: 150px;
+        margin: auto auto 50px auto;
+    }
+  }
