@@ -8,6 +8,7 @@ import tee3back from "../../icons/3back.png";
 import tee4 from "../../icons/4.png";
 import tee5 from "../../icons/hoodie.png";
 import tee6 from "../../icons/565.png";
+import tee7 from "../../icons/567.png";
 
 const Merch = () => {
   return (
@@ -61,10 +62,10 @@ const Merch = () => {
           </a>
         </div>
         <div className="merch-container">
-          <a href="https://bit.ly/3hsOwkN" rel="noopener noreferrer" target="_blank">
+          <a href="https://teespring.com/rose-tee-1866?tsmac=store&tsmic=hellocentral-2&pid=46&cid=2755" rel="noopener noreferrer" target="_blank">
           <img
             className="merch-image"
-            src={tee4}
+            src={tee7}
             alt="polyester bride tee $25"
           />
           <p>Rose Tee - $18</p>

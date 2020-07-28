@@ -12,8 +12,10 @@ const Music = () => {
       <h1 className="area-header">Music</h1>
       <p className="music-area-text">
         <div className="album-container">
+        <a href="https://ditto.fm/heatwave-hellocentral" rel="noopener noreferrer" target="_blank">
             <img src={HeatWave} alt="Heatwave" className="album-image" />
             <p>HEAT//WAVE (EP)</p>
+            </a>
         </div>
         <div className="album-container">
           <a href="https://open.spotify.com/album/6EK4ZAMwYx0I3wi4KyjaMC?si=YNAzaEu2TtmeqQvT05LZTw" rel="noopener noreferrer" target="_blank">

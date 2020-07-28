@@ -11,6 +11,9 @@
     display: flex;
     flex-wrap: wrap;
     height: 80vh;
+    a:hover {
+        text-decoration: none;
+      }
 }
 
 .merch-container {
@@ -23,10 +26,14 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .merch-area-text {
         height: 120%;
         justify-content: center;
+    }
+    .merch-container {
+        text-align: center;
+        margin: auto;
     }
   }
 
