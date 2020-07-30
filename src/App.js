@@ -1,5 +1,6 @@
+/* eslint-disable no-restricted-globals */
 import React from "react";
-import { Route, Router, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Home from "./Components/Home/Home";
 import About from "./Components/About/About";
 import HeaderContainer from "./Components/HeaderContainer/HeaderContainer";
@@ -15,15 +16,15 @@ function App() {
     <div className="app">
       <HeaderContainer />
       <Switch>
-      {/* <Router basename='/' > */}
-      <Route path="/about" exact component={About} />
+      {/* <HashRouter basename='/' > */}
+      <Route path="/about"  component={About} />
       <Route path="/merch" exact component={Merch} />
       <Route path="/music" exact component={Music} />
       <Route path="/pics" exact component={Pics} />
       <Route path="/contact" exact component={Contact} />
-      <Route path="/" component={Home} />
+      <Route path="/"  component={Home} />
+      {/* </HashRouter> */}
       </Switch>
-      {/* </Router> */}
       <Footer />
     </div>
   );

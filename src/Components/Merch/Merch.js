@@ -72,7 +72,7 @@ const Merch = () => {
           </a>
         </div>
         <div className="merch-container">
-          <a href="https://teespring.com/basic-tee-5850?tsmac=store&tsmic=hellocentral-2&pid=46&cid=2739" rel="noopener noreferrer" target="_blank">
+          <a href="https://teespring.com/basic-tee-1206?tsmac=store&tsmic=hellocentral-2&pid=46&cid=2739" rel="noopener noreferrer" target="_blank">
           <img
             className="merch-image"
             src={tee6}
