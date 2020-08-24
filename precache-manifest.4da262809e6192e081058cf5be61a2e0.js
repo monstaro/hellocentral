@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b366a0f5169cb42aebdb73a53231c1b8",
+    "revision": "5d1dd88edef88ff14a37b323d299270e",
     "url": "/hellocentral/index.html"
   },
   {
-    "revision": "c35ab1c0d3ca3d47a1a6",
-    "url": "/hellocentral/static/css/main.b8dd1b2c.chunk.css"
+    "revision": "4d0954ed2d8551d008b9",
+    "url": "/hellocentral/static/css/main.084d017c.chunk.css"
   },
   {
-    "revision": "8350526daa7915491e73",
-    "url": "/hellocentral/static/js/2.f92a392a.chunk.js"
+    "revision": "76e4620f1415a80e8141",
+    "url": "/hellocentral/static/js/2.6a7c60e1.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/hellocentral/static/js/2.f92a392a.chunk.js.LICENSE.txt"
+    "url": "/hellocentral/static/js/2.6a7c60e1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c35ab1c0d3ca3d47a1a6",
-    "url": "/hellocentral/static/js/main.8748845f.chunk.js"
+    "revision": "4d0954ed2d8551d008b9",
+    "url": "/hellocentral/static/js/main.d2c1c56a.chunk.js"
   },
   {
     "revision": "e16a23c302da7121a5b3",
@@ -82,6 +82,38 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e1e56c32736354131955f95695fce6c9",
     "url": "/hellocentral/static/media/bandcamp.e1e56c32.svg"
+  },
+  {
+    "revision": "a77624306e8963e8405c7deb71bf6503",
+    "url": "/hellocentral/static/media/c1.a7762430.png"
+  },
+  {
+    "revision": "ccf66fa6abb67bbc5ab66555e147999e",
+    "url": "/hellocentral/static/media/c2back.ccf66fa6.png"
+  },
+  {
+    "revision": "5dee6257553d8fd042c3a74b5be540b5",
+    "url": "/hellocentral/static/media/c2front.5dee6257.png"
+  },
+  {
+    "revision": "62483afc5401bfd329e1af7c9a98a9e7",
+    "url": "/hellocentral/static/media/c3back.62483afc.png"
+  },
+  {
+    "revision": "5979ae3c3b987ad58ee0b2a536303fbd",
+    "url": "/hellocentral/static/media/c3front.5979ae3c.png"
+  },
+  {
+    "revision": "863e723cf7af93c0f894f2b333e1bc6f",
+    "url": "/hellocentral/static/media/c4back.863e723c.png"
+  },
+  {
+    "revision": "b8937d17813f6edd15eb7e211fdc2c3c",
+    "url": "/hellocentral/static/media/c4front.b8937d17.png"
+  },
+  {
+    "revision": "6a41b525917cbbb8b66af754e034ccd2",
+    "url": "/hellocentral/static/media/c5front.6a41b525.png"
   },
   {
     "revision": "aa5782353f2837576b5cd8f30edfbb07",

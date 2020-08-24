@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/hellocentral/static/css/main.b8dd1b2c.chunk.css",
-    "main.js": "/hellocentral/static/js/main.8748845f.chunk.js",
-    "main.js.map": "/hellocentral/static/js/main.8748845f.chunk.js.map",
+    "main.css": "/hellocentral/static/css/main.084d017c.chunk.css",
+    "main.js": "/hellocentral/static/js/main.d2c1c56a.chunk.js",
+    "main.js.map": "/hellocentral/static/js/main.d2c1c56a.chunk.js.map",
     "runtime-main.js": "/hellocentral/static/js/runtime-main.174166cc.js",
     "runtime-main.js.map": "/hellocentral/static/js/runtime-main.174166cc.js.map",
-    "static/js/2.f92a392a.chunk.js": "/hellocentral/static/js/2.f92a392a.chunk.js",
-    "static/js/2.f92a392a.chunk.js.map": "/hellocentral/static/js/2.f92a392a.chunk.js.map",
+    "static/js/2.6a7c60e1.chunk.js": "/hellocentral/static/js/2.6a7c60e1.chunk.js",
+    "static/js/2.6a7c60e1.chunk.js.map": "/hellocentral/static/js/2.6a7c60e1.chunk.js.map",
     "index.html": "/hellocentral/index.html",
-    "precache-manifest.5b28b4289a1bd6cf322a4c34ddba85cd.js": "/hellocentral/precache-manifest.5b28b4289a1bd6cf322a4c34ddba85cd.js",
+    "precache-manifest.4da262809e6192e081058cf5be61a2e0.js": "/hellocentral/precache-manifest.4da262809e6192e081058cf5be61a2e0.js",
     "service-worker.js": "/hellocentral/service-worker.js",
-    "static/css/main.b8dd1b2c.chunk.css.map": "/hellocentral/static/css/main.b8dd1b2c.chunk.css.map",
-    "static/js/2.f92a392a.chunk.js.LICENSE.txt": "/hellocentral/static/js/2.f92a392a.chunk.js.LICENSE.txt",
+    "static/css/main.084d017c.chunk.css.map": "/hellocentral/static/css/main.084d017c.chunk.css.map",
+    "static/js/2.6a7c60e1.chunk.js.LICENSE.txt": "/hellocentral/static/js/2.6a7c60e1.chunk.js.LICENSE.txt",
     "static/media/1.png": "/hellocentral/static/media/1.0b94b0eb.png",
     "static/media/1back.png": "/hellocentral/static/media/1back.465317a4.png",
     "static/media/2.png": "/hellocentral/static/media/2.393a2110.png",
@@ -27,6 +27,14 @@
     "static/media/SYTS.jpg": "/hellocentral/static/media/SYTS.d9ed3819.jpg",
     "static/media/Temple.jpg": "/hellocentral/static/media/Temple.ceda4012.jpg",
     "static/media/bandcamp.svg": "/hellocentral/static/media/bandcamp.e1e56c32.svg",
+    "static/media/c1.png": "/hellocentral/static/media/c1.a7762430.png",
+    "static/media/c2back.png": "/hellocentral/static/media/c2back.ccf66fa6.png",
+    "static/media/c2front.png": "/hellocentral/static/media/c2front.5dee6257.png",
+    "static/media/c3back.png": "/hellocentral/static/media/c3back.62483afc.png",
+    "static/media/c3front.png": "/hellocentral/static/media/c3front.5979ae3c.png",
+    "static/media/c4back.png": "/hellocentral/static/media/c4back.863e723c.png",
+    "static/media/c4front.png": "/hellocentral/static/media/c4front.b8937d17.png",
+    "static/media/c5front.png": "/hellocentral/static/media/c5front.6a41b525.png",
     "static/media/hc1.jpg": "/hellocentral/static/media/hc1.aa578235.jpg",
     "static/media/hellopic1.jpg": "/hellocentral/static/media/hellopic1.2d05d952.jpg",
     "static/media/hellopic2.jpg": "/hellocentral/static/media/hellopic2.18a54e2e.jpg",
@@ -40,8 +48,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.174166cc.js",
-    "static/js/2.f92a392a.chunk.js",
-    "static/css/main.b8dd1b2c.chunk.css",
-    "static/js/main.8748845f.chunk.js"
+    "static/js/2.6a7c60e1.chunk.js",
+    "static/css/main.084d017c.chunk.css",
+    "static/js/main.d2c1c56a.chunk.js"
   ]
 }
