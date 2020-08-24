@@ -94,9 +94,9 @@ const Merch = () => {
             src={tee11back}
             onMouseOver={(e) => (e.currentTarget.src = tee11front)}
             onMouseOut={(e) => (e.target.src = tee11back)}
-            alt="Ghost Palms Long Sleeve White $24"
+            alt="Skulll Long Sleeve White $24"
           />
-          <p>Ghost Palm White Long Sleeve - $24</p>
+          <p>Skull Long Sleeve - $24</p>
           </a>
         </div>
         <div className="merch-container">
