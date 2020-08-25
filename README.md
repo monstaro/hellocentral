@@ -13,4 +13,4 @@ The design was conceived by myself, the intention was a very simple, easy-to-nav
 - SASS/SCSS
 - HTML + CSS
 
-['Pictures' Section](https://i.imgur.com/pOHBSwM.png)
+!['Pictures' Section](https://i.imgur.com/pOHBSwM.png)
