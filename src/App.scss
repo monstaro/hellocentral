@@ -1,6 +1,16 @@
 @import "~bootstrap/scss/bootstrap";
 
+
 * {
-    background-color: #000000;
     color: #FFFFFF;
+}
+
+.app {
+    background-image: url('./images/hc-site-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 10px 0px;
 }
