@@ -1,15 +1,42 @@
 @import "../../sass/vars";
 
 @font-face {
-  font-family: "Linebeam";
-  src: local("Linebeam"), url(../../fonts/Linebeam.ttf) format("truetype");
+  font-family: "HelveticaNeue";
+  src: local("HelveticaNeue"),
+    url(../../fonts/HelveticaNeue.ttf) format("truetype");
 }
 
 .name {
   color: $main-color;
-  font-family: "Linebeam";
-  font-size: 5em;
-  margin: 3vh 0 0 0;
+  font-family: "HelveticaNeue";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 72px;
+  letter-spacing: -0.06em;
+  transform: scale(1, 0.69);
+  -webkit-transform: scale(1, 0.69); /* Safari and Chrome */
+  -moz-transform: scale(1, 0.69); /* Firefox */
+  -ms-transform: scale(1, 0.69); /* IE 9 */
+  -o-transform: scale(1, 0.69); /* Opera */
+}
+
+.hellocentral {
+  font-size: 114px;
+  font-family: "Helvetica Neue";
+  color: rgb(206, 90, 193);
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.2;
+  text-align: left;
+  letter-spacing: -0.09em;
+  -moz-transform: scale(1, 0.69);
+  -webkit-transform: scale(1, 0.69);
+  -ms-transform: scale(1, 0.69);
+}
+
+.yellow {
+  color: rgb(230, 203, 94);
+
 }
 
 .name-hover:hover {
@@ -18,8 +45,8 @@
 }
 
 @media only screen and (max-width: 1000px) {
-  .name {
-    font-size: 2em;
+  .hellocentral {
+    // font-size: 5em;
     text-align: center;
     margin: auto;
   }
