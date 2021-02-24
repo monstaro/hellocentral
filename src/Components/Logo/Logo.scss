@@ -23,7 +23,6 @@
 .hellocentral {
   font-size: 114px;
   font-family: "Helvetica Neue";
-  color: rgb(206, 90, 193);
   font-weight: bold;
   font-style: italic;
   line-height: 1.2;
@@ -35,8 +34,23 @@
 }
 
 .yellow {
-  color: rgb(230, 203, 94);
+  color: rgb(255, 204, 0);
+}
 
+.pink {
+  color: rgb(255, 0, 195);
+}
+
+.white {
+  color: white;
+}
+
+.teal {
+  color: rgb(83, 189, 255);
+}
+
+.green {
+  color: rgb(99, 227, 73);
 }
 
 .name-hover:hover {
