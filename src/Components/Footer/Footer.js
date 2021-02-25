@@ -8,6 +8,7 @@ import itunes from "../../icons/itunes.svg";
 import "./Footer.scss";
 
 const Footer = () => {
+  
   return (
     <div className="footer-container">
       <div className="footer-contents">
@@ -27,7 +28,7 @@ const Footer = () => {
         <img src={bandcamp} alt="bandcamp" className="icon" />
         </a>
       </div>
-      <p className="footer-text">©2020 hellocentral</p>
+      <p className="footer-text">©{new Date().getFullYear()} hellocentral</p>
     </div>
   );
 };
