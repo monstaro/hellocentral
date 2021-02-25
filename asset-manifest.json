@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/hellocentral/static/css/main.1d2f0c5b.chunk.css",
-    "main.js": "/hellocentral/static/js/main.fe9ceab0.chunk.js",
-    "main.js.map": "/hellocentral/static/js/main.fe9ceab0.chunk.js.map",
+    "main.css": "/hellocentral/static/css/main.380b94cb.chunk.css",
+    "main.js": "/hellocentral/static/js/main.a75ef8e9.chunk.js",
+    "main.js.map": "/hellocentral/static/js/main.a75ef8e9.chunk.js.map",
     "runtime-main.js": "/hellocentral/static/js/runtime-main.174166cc.js",
     "runtime-main.js.map": "/hellocentral/static/js/runtime-main.174166cc.js.map",
     "static/js/2.db1420b0.chunk.js": "/hellocentral/static/js/2.db1420b0.chunk.js",
     "static/js/2.db1420b0.chunk.js.map": "/hellocentral/static/js/2.db1420b0.chunk.js.map",
     "index.html": "/hellocentral/index.html",
-    "precache-manifest.e609a7da352945a13a2ce750868874f1.js": "/hellocentral/precache-manifest.e609a7da352945a13a2ce750868874f1.js",
+    "precache-manifest.64b929fb8f2816ab609fdd26c5b2576a.js": "/hellocentral/precache-manifest.64b929fb8f2816ab609fdd26c5b2576a.js",
     "service-worker.js": "/hellocentral/service-worker.js",
-    "static/css/main.1d2f0c5b.chunk.css.map": "/hellocentral/static/css/main.1d2f0c5b.chunk.css.map",
+    "static/css/main.380b94cb.chunk.css.map": "/hellocentral/static/css/main.380b94cb.chunk.css.map",
     "static/js/2.db1420b0.chunk.js.LICENSE.txt": "/hellocentral/static/js/2.db1420b0.chunk.js.LICENSE.txt",
     "static/media/93hoodie.png": "/hellocentral/static/media/93hoodie.f2543286.png",
     "static/media/CFH.jpg": "/hellocentral/static/media/CFH.32325966.jpg",
@@ -31,7 +31,7 @@
     "static/media/ghostblackfront.png": "/hellocentral/static/media/ghostblackfront.5dee6257.png",
     "static/media/ghostwhiteback.png": "/hellocentral/static/media/ghostwhiteback.62483afc.png",
     "static/media/ghostwhitefront.png": "/hellocentral/static/media/ghostwhitefront.5979ae3c.png",
-    "static/media/App.scss": "/hellocentral/static/media/hc-site-bg.f42852d6.jpg",
+    "static/media/App.scss": "/hellocentral/static/media/hc-site-bg-scaled.14ce7378.jpg",
     "static/media/hellopic1.jpg": "/hellocentral/static/media/hellopic1.2d05d952.jpg",
     "static/media/hellopic2.jpg": "/hellocentral/static/media/hellopic2.18a54e2e.jpg",
     "static/media/hellopic3.jpg": "/hellocentral/static/media/hellopic3.6b707b08.jpg",
@@ -50,7 +50,7 @@
   "entrypoints": [
     "static/js/runtime-main.174166cc.js",
     "static/js/2.db1420b0.chunk.js",
-    "static/css/main.1d2f0c5b.chunk.css",
-    "static/js/main.fe9ceab0.chunk.js"
+    "static/css/main.380b94cb.chunk.css",
+    "static/js/main.a75ef8e9.chunk.js"
   ]
 }
