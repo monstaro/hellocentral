@@ -1,22 +1,19 @@
 @import "../../sass/mixins";
 @import "../../sass/vars";
+
 .main-area-container {
   // @include main-area-container();
   display: flex;
 }
 
-.area-header {
-  color: $main-color;
-  font-family: "HelveticaNeue-Bold";
-  font-size: 2em;
-}
 
 .music-area-text {
   color: $main-color;
   display: flex;
   flex-wrap: wrap;
-  height: 80vh;
-  margin: auto 20px;
+  height: 65vh;
+  overflow: scroll;
+  margin: auto;
   a:hover {
     text-decoration: none;
   }

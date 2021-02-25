@@ -9,7 +9,6 @@ import HeatWave from "../../icons/HeatWave3.jpg";
 const Music = () => {
   return (
     <div className="main-area-container">
-      <h1 className="area-header">Music</h1>
       <p className="music-area-text">
         <div className="album-container">
         <a href="https://ditto.fm/heatwave-hellocentral" rel="noopener noreferrer" target="_blank">

@@ -7,7 +7,7 @@ const Nav = ({ color }) => {
   const [activeClass, setActiveClass] = useState(null);
   const getClassName = (section) => {
     if (activeClass === section) {
-      return `active ${color}`;
+      return `active-nav ${color}`;
     } else {
       return "inactive";
     }
