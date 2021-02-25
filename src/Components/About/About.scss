@@ -1,20 +1,25 @@
 @import "../../sass/mixins";
 @import "../../sass/vars";
-.main-area-container {
-  @include main-area-container();
-}
+
 
 .about-area-text {
   color: $main-color;
   font-family: "HelveticaNeue";
-  // margin: auto;
-  // overflow: scroll;
-  // height: 40%;
-  padding-left: 40px;
+  margin: auto;
+  overflow: scroll;
+  height: 55vh;
+  width: 40%;
 }
 
-.image-area {
+.about-area {
   display: flex;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px 40px 0 0;
 }
 
 .epk {
@@ -35,18 +40,10 @@
 }
 
 .about-img {
-  margin: auto;
-  width: 500px;
-  // height: 90%;
+  height: 350px;
 }
 
-.members {
-  display: flex;
-  // flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 10px 40px 0 0;
-}
+
 
 @media only screen and (max-width: 1000px) {
   .image-area {
