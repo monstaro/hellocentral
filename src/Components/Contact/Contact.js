@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Contact.scss";
-import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [name, setName] = useState(null);
@@ -42,7 +41,7 @@ const Contact = () => {
   }
   return (
     <div className="main-area-container">
-      <p className="area-text">
+      <div className="area-text">
         <form className="contact-form">
           <div className="form-container">
           <div className="input-section">
@@ -78,7 +77,7 @@ const Contact = () => {
             value={sendOrSent}
           ></input>
         </form>
-      </p>
+      </div>
     </div>
   );
 };
