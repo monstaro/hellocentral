@@ -9,7 +9,7 @@ import HeatWave from "../../icons/HeatWave3.jpg";
 const Music = () => {
   return (
     <div className="main-area-container">
-      <p className="music-area-text">
+      <span className="music-area-text">
         <div className="album-container">
         <a href="https://ditto.fm/heatwave-hellocentral" rel="noopener noreferrer" target="_blank">
             <img src={HeatWave} alt="Heatwave" className="album-image" />
@@ -40,7 +40,7 @@ const Music = () => {
             <p>Temple (Single)</p>
           </a>
         </div>
-      </p>
+      </span>
     </div>
   );
 };
