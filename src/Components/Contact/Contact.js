@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import "./Contact.scss";
+import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [name, setName] = useState(null);
   const [email, setEmail] = useState(null);
   const [message, setMessage] = useState(null);
   const [errorMsg, setError] = useState(null);
+  const [sendOrSent, setSendOrSent] = useState('send it')
 
   function onNameChange(event) {
     setName({ name: event.target.value });
@@ -19,14 +21,11 @@ const Contact = () => {
     setMessage({ message: event.target.value });
   }
 
-  // const handleSubmit = (event) => {
-  //     console.log(event)
-  // }
   const errorHandler = (e) => {
     e.preventDefault();
     console.log(email)
     if ((!name || !email || !message) || (!email.email || !name.name || !message.message)) {
-      setError("Please fill out one of the missing fields.")
+      setError("Please fill out the missing fields.")
     } else {
         sendFeedback('template_cpfgiItB', {message_html: message.message, from_name: name.name, reply_to: email.email})
         setError(null)
@@ -37,13 +36,12 @@ const Contact = () => {
     window.emailjs.send(
         'gmail', templateId, vars
     ).then(res => {
-        setError('Sent it')
+        setSendOrSent('sent it!')
     })
-    .catch(err => setError('something went wrong. try emailing hellocengtralofficial@gmail.com'))
+    .catch(err => setError('something went wrong. try emailing hellocentralofficial@gmail.com'))
   }
   return (
     <div className="main-area-container">
-      <h1 className="area-header">Contact</h1>
       <p className="area-text">
         <form className="contact-form">
           <div className="form-container">
@@ -77,7 +75,7 @@ const Contact = () => {
             type="submit"
             onClick={(e) => errorHandler(e)}
             className="submitBtn"
-            value="send it"
+            value={sendOrSent}
           ></input>
         </form>
       </p>
