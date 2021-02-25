@@ -4,13 +4,10 @@
 
 .home-area-header {
     color: $main-color;
-    // display: inline-flex;
     text-align: right;
-    font-family: 'HelveticaNeue-Bold';
-    cursor: default;
+    font-family: 'HelveticaNeue';
+    font-weight: bold;
     margin: 10px 0;
-    // position: relative;
-    // margin: auto;
     cursor: progress;
 }
 
@@ -19,7 +16,6 @@
 }
 
 .left {
-    // left: 0;
     position: absolute;
 }
 
@@ -28,6 +24,5 @@
     .home-area-header {
     margin: 20px auto;
     text-align: center;
-    color: rgb(255, 153, 0);
     }
   }
