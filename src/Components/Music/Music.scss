@@ -1,22 +1,20 @@
 @import "../../sass/mixins";
 @import "../../sass/vars";
+
 .main-area-container {
-  // @include main-area-container();
+  // @include main-area-container()
   display: flex;
 }
 
-.area-header {
-  color: $main-color;
-  font-family: "HelveticaNeue-Bold";
-  font-size: 2em;
-}
 
 .music-area-text {
+  text-align: center;
   color: $main-color;
   display: flex;
   flex-wrap: wrap;
-  height: 80vh;
-  margin: auto 20px;
+  height: 65vh;
+  overflow: scroll;
+  margin: auto;
   a:hover {
     text-decoration: none;
   }
@@ -24,6 +22,7 @@
 
 .album-container {
   margin: 20px;
+  justify-self: center;
 }
 
 .album-image {
@@ -31,9 +30,9 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
     .music-area-text {
-      height: 120vh;
+      height: 60vh;
       display: flex; 
       justify-content: center;
     }

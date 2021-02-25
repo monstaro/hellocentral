@@ -1,20 +1,24 @@
 @import "../../sass/mixins";
 @import "../../sass/vars";
-.main-area-container {
-  @include main-area-container();
-}
 
 .about-area-text {
   color: $main-color;
   font-family: "HelveticaNeue";
-  // margin: auto;
-  // overflow: scroll;
-  // height: 40%;
-  padding-left: 40px;
+  margin: auto;
+  overflow: scroll;
+  height: 55vh;
+  width: 40%;
 }
 
-.image-area {
+.about-area {
   display: flex;
+}
+
+.members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px 40px 0 0;
 }
 
 .epk {
@@ -35,31 +39,73 @@
 }
 
 .about-img {
-  margin: auto;
-  width: 500px;
-  // height: 90%;
+  height: 350px;
 }
 
-.members {
-  display: flex;
-  // flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 10px 40px 0 0;
-}
+// @media only screen and (max-width: 600px) {
+//   .about-area {
+//     flex-direction: column;
+//     justify-content: center;
+//     margin: auto;
+//   }
+//   .about-img {
+//     margin: auto;
+//     height: 75%;
+//     width: 75%;
+//   }
+//   .about-area-text {
+//     text-align: center;
+//     height: 20vh;
+//   }
+//   .img-container {
+//     display: flex;
+//     flex-direction: column;
+//     // margin:   auto;
+//   }
+// }
 
-@media only screen and (max-width: 1000px) {
-  .image-area {
+@media only screen and (max-width: 575px) {
+  .about-area {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: auto;
   }
   .about-img {
-    width: 50%;
-    justify-content: center;
-    display: flex;
+    margin: auto;
+    height: 55%;
+    width: 55%;
   }
   .about-area-text {
     text-align: center;
+    height: 40vh;
+    width: 90vw;
+  }
+  .img-container {
+    display: flex;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 575px) {
+  .about-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+  .about-img {
+    margin: auto;
+    height: 55%;
+    width: 55%;
+  }
+  .about-area-text {
+    text-align: center;
+    height: 25vh;
+    width: 100%;
+  }
+  .img-container {
+    display: flex;
+    margin: auto;
   }
 }

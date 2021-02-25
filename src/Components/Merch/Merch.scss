@@ -2,7 +2,7 @@
 @import '../../sass/vars';
 
 .main-area-container {
-    // @include main-area-container();
+    @include main-area-container();
     display: flex;
 }
 
@@ -11,7 +11,10 @@
     color: $main-color;
     display: flex;
     flex-wrap: wrap;
-    height: 120vh;
+    width: 90%;
+    margin: auto;
+    height: 65vh;
+    overflow: scroll;
     a:hover {
         text-decoration: none;
       }
@@ -29,7 +32,7 @@
 
 @media only screen and (max-width: 1000px) {
     .merch-area-text {
-        height: 120%;
+        height: 65vh;
         justify-content: center;
     }
     .merch-container {

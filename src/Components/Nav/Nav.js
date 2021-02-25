@@ -3,40 +3,31 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Nav.scss";
 
-const Nav = () => {
+const Nav = ({ color }) => {
   const [activeClass, setActiveClass] = useState(null);
   const getClassName = (section) => {
     if (activeClass === section) {
-      return "active";
+      return `active-nav ${color}`;
     } else {
       return "inactive";
     }
   };
   window.onpopstate = function () {
     let url = window.location.href.split("/");
-    if (url[url.lenth - 1] !== "/") {
-      setActiveClass(url[url.length - 1]);
-    } else {
-      setActiveClass(url[url.length - 2]);
-    }
-    //rewrite to work with .live when site is live
+    setActiveClass(url[url.length - 1]);
   };
   window.onload = function () {
     let url = window.location.href.split("/");
-    if (url[url.lenth - 1] !== "/") {
-      setActiveClass(url[url.length - 1]);
-    } else {
-      setActiveClass(url[url.length - 2]);
-    }
-    //rewrite to work with .live when site is live
+    setActiveClass(url[url.length - 1]);
   };
+
   return (
     <nav className="nav-links">
       <ul>
         <li>
           <Link
             to="/about"
-            className={getClassName("about") + ' headlink'} 
+            className={getClassName("about") + " headlink"}
             onClick={() => setActiveClass("about")}
           >
             about
@@ -45,7 +36,7 @@ const Nav = () => {
         <li>
           <Link
             to="/merch"
-            className={getClassName("merch") + ' headlink'}
+            className={getClassName("merch") + " headlink"}
             onClick={() => setActiveClass("merch")}
           >
             merch
@@ -54,7 +45,7 @@ const Nav = () => {
         <li>
           <Link
             to="/music"
-            className={getClassName("music") + ' headlink'}
+            className={getClassName("music") + " headlink"}
             onClick={() => setActiveClass("music")}
           >
             music
@@ -63,7 +54,7 @@ const Nav = () => {
         <li>
           <Link
             to="/pics"
-            className={getClassName("pics") + ' headlink'}
+            className={getClassName("pics") + " headlink"}
             onClick={() => setActiveClass("pics")}
           >
             pics
@@ -72,7 +63,7 @@ const Nav = () => {
         <li>
           <Link
             to="/contact"
-            className={getClassName("contact") + ' headlink'}
+            className={getClassName("contact") + " headlink"}
             onClick={() => setActiveClass("contact")}
           >
             contact
