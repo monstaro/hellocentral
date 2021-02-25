@@ -58,10 +58,20 @@
   cursor: default;
 }
 
+@media only screen and (max-width: 1200px) {
+  .hellocentral {
+    font-size: 6em;
+    // text-align: center;
+    margin: auto;
+    padding-left: 60px;
+  }
+}
+
 @media only screen and (max-width: 1000px) {
   .hellocentral {
-    // font-size: 5em;
+    font-size: 5em;
     text-align: center;
     margin: auto;
+    padding-left: 0px;
   }
 }

@@ -8,8 +8,17 @@ li {
     color: $main-color;
     display: inline;
     margin: 20px;
-    font-family: 'HelveticaNeue-Bold';
-    font-size: 1.4em;
+    font-family: 'HelveticaNeue';
+    font-size: 1.8em;
+    font-family: "Helvetica Neue";
+//   font-weight: bold;
+//   font-style: italic;
+//   line-height: 1.2;
+//   text-align: left;
+//   letter-spacing: -0.09em;
+//   -moz-transform: scale(1, 0.69);
+//   -webkit-transform: scale(1, 0.69);
+//   -ms-transform: scale(1, 0.69);
 }
 
 .headlink {
@@ -23,11 +32,31 @@ li {
 }
 
 .active {
-    color: rgb(244, 190, 103);
+    // color: rgb(244, 190, 103);
     border-bottom: 3px solid $main-color;
 }
 
-@media only screen and (max-width: 1000px) {
+.yellow {
+    color: rgb(255, 204, 0);
+  }
+  
+  .pink {
+    color: rgb(255, 0, 195);
+  }
+  
+  .white {
+    color: white;
+  }
+  
+  .teal {
+    color: rgb(83, 189, 255);
+  }
+  
+  .green {
+    color: rgb(99, 227, 73);
+  }
+
+@media only screen and (max-width: 1200px) {
     .nav-links {
     margin: auto;
     text-align: center;

@@ -3,17 +3,11 @@ import "../../fonts/Linebeam.ttf";
 import "../../fonts/HelveticaNeue.ttf";
 import "./Logo.scss";
 
-const Logo = () => {
-
-  const generateRandomColor = () => {
-    let colors = ['yellow', 'pink', 'teal', 'white', 'green'];
-    let randomNumber = Math.floor(Math.random() * Math.floor(colors.length))
-    return `hellocentral ${colors[randomNumber]}`
-  }
+const Logo = ({ color }) => {
 
   return (
     <div className="logo">
-      <p className={generateRandomColor()}>
+      <p className={`hellocentral ${color}`}>
         hellocentral
       </p>
     </div>
