@@ -1,7 +1,6 @@
 @import "../../sass/mixins";
 @import "../../sass/vars";
 
-
 .about-area-text {
   color: $main-color;
   font-family: "HelveticaNeue";
@@ -43,20 +42,70 @@
   height: 350px;
 }
 
+// @media only screen and (max-width: 600px) {
+//   .about-area {
+//     flex-direction: column;
+//     justify-content: center;
+//     margin: auto;
+//   }
+//   .about-img {
+//     margin: auto;
+//     height: 75%;
+//     width: 75%;
+//   }
+//   .about-area-text {
+//     text-align: center;
+//     height: 20vh;
+//   }
+//   .img-container {
+//     display: flex;
+//     flex-direction: column;
+//     // margin:   auto;
+//   }
+// }
 
-
-@media only screen and (max-width: 1000px) {
-  .image-area {
+@media only screen and (max-width: 575px) {
+  .about-area {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     margin: auto;
   }
   .about-img {
-    width: 50%;
-    justify-content: center;
-    display: flex;
+    margin: auto;
+    height: 55%;
+    width: 55%;
   }
   .about-area-text {
     text-align: center;
+    height: 40vh;
+    width: 90vw;
+  }
+  .img-container {
+    display: flex;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 575px) {
+  .about-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+  .about-img {
+    margin: auto;
+    height: 55%;
+    width: 55%;
+  }
+  .about-area-text {
+    text-align: center;
+    height: 25vh;
+    width: 100%;
+  }
+  .img-container {
+    display: flex;
+    margin: auto;
   }
 }
