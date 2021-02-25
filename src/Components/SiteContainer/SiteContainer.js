@@ -18,7 +18,7 @@ export const SiteContainer = () => {
 
         <Route path="/" component={Home} />
       </Switch>
-     <Footer />
+      <Footer />
     </div>
   );
 };

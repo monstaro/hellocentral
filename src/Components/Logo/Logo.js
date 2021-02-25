@@ -6,11 +6,9 @@ import "./Logo.scss";
 const Logo = ({ color }) => {
 
   return (
-    <div className="logo">
       <p className={`hellocentral ${color}`}>
         hellocentral
       </p>
-    </div>
   );
 };
 
