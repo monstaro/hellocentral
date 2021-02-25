@@ -1,13 +1,14 @@
 import React from "react";
 import "./Merch.scss";
 import merchItems from "./MerchDataset";
+import uuid from 'react-uuid'
 
 const Merch = () => {
   const renderClothingItem = () => {
     return merchItems.map((item) => {
       if (!item.backImg) {
         return (
-          <div className="merch-container">
+          <div className="merch-container" key={item.name + uuid()}> 
             <a href={item.url} rel="noopener noreferrer" target="_blank">
               <img
                 className="merch-image"
@@ -22,7 +23,7 @@ const Merch = () => {
         );
       } else {
         return (
-          <div className="merch-container">
+          <div className="merch-container" key={item.name + uuid()}>
             <a href={item.url} rel="noopener noreferrer" target="_blank">
               <img
                 className="merch-image"
